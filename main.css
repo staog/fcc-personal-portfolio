@@ -1,0 +1,128 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+  font-size: 130%;
+}
+
+#navbar li {
+  float: left;
+}
+
+@media screen and (max-width: 480px) {
+  #navbar li {float: none;}
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+#navbar li a.active {
+  background-color: #333;
+  color: #999;
+}
+
+#navbar li a:hover:not(.active) {
+  background-color: #333333;
+  color: orange;
+}
+
+#welcome-section {
+  font-size: 20px;
+  min-height: 55vh;
+  top: 0;
+  padding-top: 45vh;
+}
+
+#big-image {
+  border-radius: 50%;
+  max-width: 40%;
+}
+
+#about {
+  padding: 15px;
+  font-size: 1.1em;
+}
+
+#bio {
+  font-size: 1.3em;
+}
+
+#projects {
+  background-color: #222;
+  padding: 15px;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 40%;
+  margin: 20px;
+  border: 1px solid white;
+}
+
+#contact {
+  padding: 10px;
+}
+
+#form {
+  margin: 20px auto;
+  max-width: 50%;
+}
+
+#btn {
+  padding: 5px 15px;
+  background-color: #222;
+  border: 1px solid orange;
+  border-radius: 6px;
+  color: orange;
+  font-size: 20px;
+}
+
+#bottom-nav a {
+  text-decoration: none;
+  color: aqua;
+}
+
+#bottom-nav a:visited {
+  color: red;
+}
+
+#bottom-nav a:hover {
+  color: orange;
+}
+
+footer {
+  padding: 20px;
+  background-color: #222;
+  font-size: 1.1em;
+}
+
+#icons {
+  font-size: 30px;
+}
+
+span {
+  color: orange;
+}
