@@ -28,7 +28,13 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  #navbar li {float: none;}
+  #navbar li {
+    float: none;
+    font-size: 0.8em;
+  }
+  #big-image {
+    max-width: 50%;
+  }
 }
 
 #navbar li a {
@@ -58,7 +64,7 @@ body {
 
 #big-image {
   border-radius: 50%;
-  max-width: 40%;
+  max-width: 30%;
 }
 
 #about {
@@ -73,6 +79,10 @@ body {
 #projects {
   background-color: #222;
   padding: 15px;
+}
+
+.project-tile:hover {
+  opacity: 0.5;
 }
 
 img {
